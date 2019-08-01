@@ -7,7 +7,7 @@ let firstHitTime = 0;
 
 function round() {
 
-  
+  $('.miss').removeClass('miss');
   if (hits === maxHits) {
     endGame();
   }
