@@ -46,6 +46,9 @@ function handleClick(event) {
   }
   else {
     lose++;
+    else { 
+      $(event.target).addClass('miss'); 
+    }
   }
   // TODO: как-то отмечать если мы промахнулись? См CSS класс .miss
 }
